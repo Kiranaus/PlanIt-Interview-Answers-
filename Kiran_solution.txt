@@ -63,3 +63,9 @@ class GFG
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+
+Solution : using collection module :
+import collections;
+str = input("Enter sample string: ");
+print ("Max occurring character is " + collections.Counter(str).most_common(1)[0][0])
